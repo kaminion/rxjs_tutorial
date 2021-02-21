@@ -20,9 +20,15 @@ const array = [0, 1, 2, 3, 4, 5];
 const newArray = array.map(v=>v*2)
 const filteredArray = array.filter(v => v % 2 === 0);
 const sum = array.reduce((prev, curr) => {
-    console.log(`in sum : ${prev} ${curr}`);
     return prev + curr;
 }, 0);
-console.log(newArray);
-console.log(filteredArray);
+
+const double = v => v * 2;
+const isEven = v => v % 2 === 0;
+const sumUp = (prev, curr) => prev + curr;
+
+const higherResult = array.map(double)
+    .filter(isEven)
+    .reduce(sumUp, 0);
+console.log(higherResult);
 console.log(sum);
