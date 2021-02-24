@@ -43,3 +43,6 @@
 - 문자열이나 배열과 같이 무언가를 담고있는 것의 행위에 대한 규약
 - 문자열과 배열은 iterable이다.
 - iterable은 for ... of 와 ... spread 연산자 사용이 가능하다.
+- Symbol.iterator 라는 메서드를 가짐
+- iterator Object를 반환한다.
+- for of와 ...spread 연산자는 next 메소드를 호출한다.
