@@ -46,3 +46,6 @@
 - Symbol.iterator 라는 메서드를 가짐
 - iterator Object를 반환한다.
 - for of와 ...spread 연산자는 next 메소드를 호출한다.
+
+# 비동기
+- 보통 I/O, 시간과 관련된 일, 서버 요청 일
