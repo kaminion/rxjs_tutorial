@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.isObject = isObject;\n/** PURE_IMPORTS_START  PURE_IMPORTS_END */\nfunction isObject(x) {\n  return x !== null && typeof x === 'object';\n}\n//# sourceMappingURL=isObject.js.map"},"hash":"918b194ebd1f8215a0328486a36a4b7e"}
