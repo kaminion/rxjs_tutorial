@@ -57,3 +57,6 @@ webpack이 아닌 parcel-bundler로 환경세팅해놓았음
 - iterable은 대체로 Pull 기반으로 뽑아낸다하면 Observable은 푸시기반으로 여러값을 전달하는 컬렉션이다.
 - 어떤 객체의 상태가 변할 때 그와 연관된 객체 들에게 알림을 보내는 디자인 패턴
 
+
+# parcel version issue
+- 1.12.3버전으로 변경하여 fix하였다. 
