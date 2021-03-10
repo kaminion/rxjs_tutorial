@@ -54,9 +54,14 @@
 webpack이 아닌 parcel-bundler로 환경세팅해놓았음
 
 # Observable
-- iterable은 대체로 Pull 기반으로 뽑아낸다하면 Observable은 푸시기반으로 여러값을 전달하는 컬렉션이다.
-- 어떤 객체의 상태가 변할 때 그와 연관된 객체 들에게 알림을 보내는 디자인 패턴
+- iterable은 대체로 Pull 기반으로 뽑아낸다하면 Observable은 Push기반으로 여러값을 전달하는 컬렉션이다.
+- Pull 기반은 외부에서 명령하여 응답받고 처리, 데이터를 가져오려면 계속 호출해야함
+- Push 기반은 응답이 오면 그때 반응하여 처리, 데이터를 가져오려면 구독해야함.
+- 어떤 객체의 상태가 변할 때 그와 연관된 객체 들에게 알림을 보내는 디자인 패턴을 활용(Observer Pattern)
+- Observable은 구독중인 observer에게 여러 이벤트나 값을 보냄
+- subscribe 메서드로 구독중인 observer의 상태를 변경할 수 있음
 
 
 # parcel version issue
 - 1.12.3버전으로 변경하여 fix하였다. 
+
